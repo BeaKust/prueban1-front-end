@@ -10,3 +10,35 @@ body {
 img {
     max-width: 100%;
 }
+
+
+.menu-superior {
+   display:flex
+
+}
+
+.menu-superior img {
+    max-width: 20%;
+}
+
+
+.nuestro-trabajo {
+    display: flex;
+}
+
+
+.nuestro-trabajo img{
+    max-width: 20%;
+}
+
+
+
+.nuestro-derecha{
+    max-width: 30%;
+    margin-left: 2rem;
+}
+
+.h2-trabajo{
+    margin-left: 34rem;
+    margin-top: 13rem;
+}
