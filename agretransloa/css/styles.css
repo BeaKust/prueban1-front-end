@@ -261,3 +261,43 @@ hr {
 #terminos {
     color: blue;
 }
+
+#nuestroequipo {
+    text-align: center;
+    font-size: 5rem;
+    color: #053477;
+
+
+}
+
+
+.equipo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.equipo img {
+    width: 21rem;
+}
+
+.equipo h3{
+    color:  #F75F1C;
+}
+
+.equipo p {
+    color: #053477;
+}
+
+
+.persona2 {
+
+    margin-left: 3rem;
+}
+
+
+.persona3 {
+    margin-left: 3rem;
+}
+
