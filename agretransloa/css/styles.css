@@ -1,44 +1,263 @@
-@font-face {
-    font-family: segoi-ui;
-    src: url('../segoe-ui-4-cufonfonts/Segoe\ UI.ttf');
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+,:before, :after {
+    box-sizing: inherit;
 }
 
 body {
-    font-family: segoi-ui;
+    font-size: 1.6rem; /* calculo para que 16px * 0.625 = sea igual a 10px */
+    
 }
+
 
 img {
     max-width: 100%;
 }
 
 
+
+
+
+
+header {
+    
+    background-color: #fff;
+}
+
+header img {
+    width: 20rem;
+    margin-top: 2rem;
+}
+
+
 .menu-superior {
-   display:flex
-
-}
-
-.menu-superior img {
-    max-width: 20%;
-}
-
-
-.nuestro-trabajo {
     display: flex;
+    justify-content: center;
 }
 
 
-.nuestro-trabajo img{
-    max-width: 20%;
+header nav {
+    margin-left: 8rem;
+    margin-top: 4.5rem;
+}
+
+header nav a {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: rgb(60, 60, 158);
+}
+
+#inicio {
+    background-color: blue;
+    border: 10rem;
+    color: #ffff;
+    padding: 0.8rem;
 }
 
 
 
-.nuestro-derecha{
-    max-width: 30%;
-    margin-left: 2rem;
+
+
+
+
+
+
+
+
+
+
+.header {
+    height: 100vh;
+    background-image: url("/agretransloa/img/site-header-background.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .overlay {
+    height: 100vh;
+    width: 50%;
+    background-color: rgba(100, 100, 100, 0.4);
+    position: absolute;
+      
+    z-index: 2;
+  }
+  
+  .header h1 {
+    position: relative; /* para que quede por encima de la capa oscura */
+    font-size: 5.8rem;
+    color: #053477;
+    z-index: 3;
+    padding-top: 21%;
+    padding-left: 30rem;
+  }
+
+
+
+
+
+
+
+.padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 80rem;
+    
 }
 
-.h2-trabajo{
-    margin-left: 34rem;
-    margin-top: 13rem;
+
+.padre img {
+    width: 10rem;
+    
+}
+
+.patatamayor {
+    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;    
+    
+
+}
+
+
+.nuestrotrabajo {
+    width: 141%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+    width: 70%;
+
+    
+}
+
+.nuestrotrabajo h2{
+    font-size: 7rem;
+    margin-right: 5rem;
+    margin-bottom: 28rem;
+    color: #2A4B7A;
+}
+
+
+
+.patataabuelo {
+  
+    margin-top: -7rem
+}
+
+
+.patataabuelo img {
+
+    margin-top: 10rem;
+}
+
+
+.envios {
+    margin-bottom: 8rem;
+    
+}
+
+.envios p {
+    color: #2A4B7A;
+}
+
+.envios h3 {
+    color: darkorange;
+}
+
+
+.encomiendas {
+    margin-top: 0rem;
+}
+
+.encomiendas p {
+    color: #2A4B7A;
+}
+
+.encomiendas h3 {
+    color: darkorange;
+}
+
+
+.economia {
+    margin-top: 8rem;
+}
+
+.economia p {
+    color: #2A4B7A;
+}
+.economia h3 {
+    color: darkorange;
+}
+
+
+
+
+
+
+
+
+footer img {
+
+    max-width: 3rem;
+}
+
+
+.imgfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color: rgb(186, 49, 49);
+
+}
+
+
+.imgfooter img {
+    margin-left: 10rem;
+    
+}
+
+
+
+.padrecreditos{
+
+    display: flex;
+    justify-content: center;
+}
+
+.medios {
+    margin-left: 5rem;
+}
+
+.contacto {
+    margin-left: 5rem;
+}
+
+.contacto a {
+    text-decoration: none;
+    color: blue;
+}
+
+hr {
+    content: "";
+    display: block;
+    width: 33.3rem;
+    height: .2rem;
+    background-color: red;
+    margin-left: 0;
+}
+
+#terminos {
+    color: blue;
 }
